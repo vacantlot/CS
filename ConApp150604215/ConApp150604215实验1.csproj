@@ -62,19 +62,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PShape_chs.cs" />
+    <Compile Include="SaleManage.cs" />
     <Compile Include="Score_chs.cs" />
     <Compile Include="Shape_chs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="WinApp150604215\WinApp150604215.csproj">
+    <ProjectReference Include="..\WinApp150604215\WinApp150604215.csproj">
       <Project>{B29FF34D-C3E2-476D-9970-9689F26A7996}</Project>
       <Name>WinApp150604215</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

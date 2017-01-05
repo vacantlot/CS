@@ -291,14 +291,59 @@ namespace ConApp150604215
             } while (A);
         }
         #endregion
-
+//实验7
+#region 实验7
+        static void shiyan7()
+        {
+            Console.WriteLine("——————销售明细——————");
+            Sale[] salesJan = { new Sale("T0001", "笔记本电脑"), new Sale("T0002", "华为荣耀"), new Sale("T0003", "iPad"), new Sale("T0004", "华为荣耀4X"), new Sale("T0005", "华为荣耀6高配") };
+            Sale[] salesFeb = { new Sale("T0006", "笔记本"), new Sale("T0002", "荣耀"), new Sale("T0003", "iPadMini") };
+            Sale[] salesMar = { new Sale("T0008", "外星人"), new Sale("T0009", "宝马"), new Sale("T0003", "iPadMini") };
+            double[] dbJan = {3500,999,3288,1999,12888 };
+            double[] dbFeb = {1499,1699 ,49};
+            double[] dbMar = { 3500, 999,1999.9 };
+            while (true)
+            {
+                Console.WriteLine( "\n请输入要查询的月份（比如1、2、3等）：");
+                try
+                {
+                    int month = Convert.ToInt32(Console.ReadLine());
+                    switch (month)
+                    {
+                        case 1:
+                            Console.WriteLine("1月份的商品销售明细如下：");
+                            Sale.ShowInfo(salesJan);
+                            Console.WriteLine("\n1月份闪屏的总销售额：" + Sale.CaleMoney<double>(dbJan));
+                            break;
+                        case 2:
+                            Console.WriteLine("2月份的商品销售明细如下：");
+                            Sale.ShowInfo(salesFeb);
+                            Console.WriteLine("\n2月份闪屏的总销售额：" + Sale.CaleMoney<double>(dbFeb));
+                            break;
+                        case 3:
+                            Console.WriteLine("3月份的商品销售明细如下：");
+                            Sale.ShowInfo(salesFeb);
+                            Console.WriteLine("\n3月份闪屏的总销售额：" + Sale.CaleMoney<double>(dbMar));
+                            break;
+                        default:
+                            Console.WriteLine("该月没有销售数据或者输入的月份有误！");
+                            break;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
+        #endregion
 
         static void Main(string[] args)
         {
 
             // shiyan1();
             //  shiyan2();
-            
+           // shiyan7();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace WinApp150604215
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmQuery_chs());
+            Application.Run(new FrmStart_chs());
         }
     }
 }

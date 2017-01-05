@@ -104,5 +104,19 @@ namespace WinApp150604215
             frmlogFile.MdiParent = this;
             frmlogFile.Show();
         }
+
+        private void 信息维护ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmUpdate_chs frmup = new FrmUpdate_chs();
+            frmup.MdiParent = this;
+            frmup.Show();
+        }
+
+        private void 信息查询ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmQuery_chs frmq = new FrmQuery_chs();
+            frmq.MdiParent = this;
+            frmq.Show();
+        }
     }
 }

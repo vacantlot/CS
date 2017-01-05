@@ -233,9 +233,10 @@ namespace WinApp150604215
             {
                 query = "major";                
             }         
-            string strcomm = "SELECT UserName as 姓名 ,xuehao as 学号 , major as 专业 , SEX as 性别 , photo as 照片 from UserLogin where " + query + " = ?";
+            string strcomm = "SELECT UserName as 姓名 ,xuehao as 学号 , major as 专业 , SEX as 性别 , photo as 照片 from UserLogin where " + query + " like '%"+queryinfo+"%'";
+  
             OleDbCommand oleCom = new OleDbCommand(strcomm, _oleDbConn);
-            oleCom.Parameters.Add(new OleDbParameter("?", OleDbType.VarChar, 4)).Value = queryinfo;
+           // oleCom.Parameters.Add(new OleDbParameter("?", OleDbType.VarChar, 4)).Value = queryinfo;
             return new OleDbDataAdapter(oleCom);                    
         }
         ///// <summary>

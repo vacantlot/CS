@@ -195,12 +195,14 @@
             this.信息维护ToolStripMenuItem.Name = "信息维护ToolStripMenuItem";
             this.信息维护ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.信息维护ToolStripMenuItem.Text = "信息维护";
+            this.信息维护ToolStripMenuItem.Click += new System.EventHandler(this.信息维护ToolStripMenuItem_Click);
             // 
             // 信息查询ToolStripMenuItem
             // 
             this.信息查询ToolStripMenuItem.Name = "信息查询ToolStripMenuItem";
             this.信息查询ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.信息查询ToolStripMenuItem.Text = "信息查询";
+            this.信息查询ToolStripMenuItem.Click += new System.EventHandler(this.信息查询ToolStripMenuItem_Click);
             // 
             // FrmMain_chs
             // 

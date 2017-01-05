@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "random", "random\random.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTimer", "VSTimer\VSTimer.csproj", "{074A4321-E336-428E-B228-1356395484A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConApp150604215实验1", "ConApp150604215\ConApp150604215实验1.csproj", "{25EAC143-77BE-4368-BAB8-EB09CDD9DB93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,14 @@ Global
 		{074A4321-E336-428E-B228-1356395484A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{074A4321-E336-428E-B228-1356395484A4}.Release|x86.ActiveCfg = Release|x86
 		{074A4321-E336-428E-B228-1356395484A4}.Release|x86.Build.0 = Release|x86
+		{25EAC143-77BE-4368-BAB8-EB09CDD9DB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25EAC143-77BE-4368-BAB8-EB09CDD9DB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25EAC143-77BE-4368-BAB8-EB09CDD9DB93}.Debug|x86.ActiveCfg = Debug|x86
+		{25EAC143-77BE-4368-BAB8-EB09CDD9DB93}.Debug|x86.Build.0 = Debug|x86
+		{25EAC143-77BE-4368-BAB8-EB09CDD9DB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25EAC143-77BE-4368-BAB8-EB09CDD9DB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25EAC143-77BE-4368-BAB8-EB09CDD9DB93}.Release|x86.ActiveCfg = Release|x86
+		{25EAC143-77BE-4368-BAB8-EB09CDD9DB93}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

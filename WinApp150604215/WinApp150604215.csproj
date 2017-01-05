@@ -84,6 +84,12 @@
     <Compile Include="FrmIntegrated_chs.Designer.cs">
       <DependentUpon>FrmIntegrated_chs.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmLINQPages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLINQPages.Designer.cs">
+      <DependentUpon>FrmLINQPages.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLoginFile_chs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,6 +167,9 @@
     <EmbeddedResource Include="FrmIntegrated_chs.resx">
       <DependentUpon>FrmIntegrated_chs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmLINQPages.resx">
+      <DependentUpon>FrmLINQPages.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLoginFile_chs.resx">
       <DependentUpon>FrmLoginFile_chs.cs</DependentUpon>
     </EmbeddedResource>
@@ -204,6 +213,7 @@
     <EmbeddedResource Include="FrmShowPicture.resx">
       <DependentUpon>FrmShowPicture.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
