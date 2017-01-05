@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B29FF34D-C3E2-476D-9970-9689F26A7996}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinApp150604215</RootNamespace>
+    <AssemblyName>WinApp150604215</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataBase.cs" />
+    <Compile Include="FrmAboutMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAboutMe.Designer.cs">
+      <DependentUpon>FrmAboutMe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDoubleColorBall_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDoubleColorBall_chs.Designer.cs">
+      <DependentUpon>FrmDoubleColorBall_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIntegrated_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIntegrated_chs.Designer.cs">
+      <DependentUpon>FrmIntegrated_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoginFile_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoginFile_chs.Designer.cs">
+      <DependentUpon>FrmLoginFile_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin_chs.designer.cs">
+      <DependentUpon>FrmLogin_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain_chs.Designer.cs">
+      <DependentUpon>FrmMain_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrderFoods_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrderFoods_chs.Designer.cs">
+      <DependentUpon>FrmOrderFoods_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQuery_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQuery_chs.Designer.cs">
+      <DependentUpon>FrmQuery_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowLog.Designer.cs">
+      <DependentUpon>FrmShowLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStart_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStart_chs.Designer.cs">
+      <DependentUpon>FrmStart_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMouse_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouse_chs.Designer.cs">
+      <DependentUpon>FrmMouse_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSX_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSX_chs.Designer.cs">
+      <DependentUpon>FrmSX_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpdate_chs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdate_chs.Designer.cs">
+      <DependentUpon>FrmUpdate_chs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrmShowPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowPicture.Designer.cs">
+      <DependentUpon>FrmShowPicture.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmAboutMe.resx">
+      <DependentUpon>FrmAboutMe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDoubleColorBall_chs.resx">
+      <DependentUpon>FrmDoubleColorBall_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIntegrated_chs.resx">
+      <DependentUpon>FrmIntegrated_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoginFile_chs.resx">
+      <DependentUpon>FrmLoginFile_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin_chs.resx">
+      <DependentUpon>FrmLogin_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain_chs.resx">
+      <DependentUpon>FrmMain_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrderFoods_chs.resx">
+      <DependentUpon>FrmOrderFoods_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQuery_chs.resx">
+      <DependentUpon>FrmQuery_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowLog.resx">
+      <DependentUpon>FrmShowLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStart_chs.resx">
+      <DependentUpon>FrmStart_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouse_chs.resx">
+      <DependentUpon>FrmMouse_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSX_chs.resx">
+      <DependentUpon>FrmSX_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdate_chs.resx">
+      <DependentUpon>FrmUpdate_chs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FrmShowPicture.resx">
+      <DependentUpon>FrmShowPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\夫妻肺片.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\干锅牛蛙.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\锅盔.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\回锅肉.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\麻婆豆腐.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\毛血旺.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\水煮肉片.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\酥肉.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\土豆烧牛肉.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\images\00.bmp" />
+    <Content Include="Resources\images\01.bmp" />
+    <Content Include="Resources\images\02.bmp" />
+    <Content Include="Resources\images\03.bmp" />
+    <Content Include="Resources\images\04.bmp" />
+    <Content Include="Resources\images\05.bmp" />
+    <Content Include="Resources\images\06.bmp" />
+    <Content Include="Resources\images\07.bmp" />
+    <Content Include="Resources\images\08.bmp" />
+    <Content Include="Resources\images\09.bmp" />
+    <Content Include="Resources\images\10.bmp" />
+    <Content Include="Resources\images\11.bmp" />
+    <Content Include="Resources\images\12.bmp" />
+    <Content Include="Resources\images\First.gif" />
+    <Content Include="Resources\images\Firstd.gif" />
+    <Content Include="Resources\images\Last.gif" />
+    <Content Include="Resources\images\Lastd.gif" />
+    <Content Include="Resources\images\Next.gif" />
+    <Content Include="Resources\images\Nextd.gif" />
+    <Content Include="Resources\images\Prev.gif" />
+    <Content Include="Resources\images\Prevd.gif" />
+    <Content Include="Resources\images\white.gif" />
+    <Content Include="Resources\UserName.txt" />
+    <Content Include="Resources\UserPassword.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
